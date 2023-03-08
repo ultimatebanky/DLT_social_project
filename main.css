@@ -45,19 +45,13 @@
     text-decoration: none;
 
 
-
-
 }
-
-
 
 
 body {
     font-family: 'Poppins', sans-serif;
     color: var(--color-dark);
     background-color: var(--color-light);
-
-
 }
 
 
@@ -199,7 +193,7 @@ main .container .left .profile {
     -moz-border-radius: var(--card-border-radius);
     -ms-border-radius: var(--card-border-radius);
     -o-border-radius: var(--card-border-radius);
-    display: none;
+    /* display: none; */
 }
 
 
@@ -513,7 +507,7 @@ main .container .left .profile {
     }
 }
 
-/****************************************************FEEDS********************************************************/
+/************************************FEEDS********************************************************/
 /* .middle {
   display: none;
 } */
@@ -832,7 +826,7 @@ main .container .right {
 }
 
 .customize-theme .choose-color .color-1 {
-    background: var(--color-primary);
+    background: indigo;
     height: 2.2rem;
     width: 2.2rem;
     border-radius: 50%;
